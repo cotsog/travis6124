@@ -12,6 +12,6 @@ service:
   - xvfb
 
 script:
-  - service xvfb status   # we would expect the service is started - but it is not
-  - service xvfb start    # so start it manually
-  - service xvfb status   # and check again
+  - service xvfb status         # we would expect the service is started - but it is not
+  - sudo service xvfb start     # so start it manually
+  - service xvfb status         # and check again
