@@ -12,11 +12,7 @@ travis claims :
     :code: yaml
 
 
-.. raw:: html
-    :url: https://travis-ci.org/bitranox/travis6124/builds/518513606
-
-
+please check : https://travis-ci.org/bitranox/travis6124/builds/518517440
 
 .. |Build Status| image:: https://travis-ci.org/bitranox/travis6124.svg?branch=master
    :target: https://travis-ci.org/bitranox/travis6124
-
