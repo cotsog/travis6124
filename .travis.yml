@@ -12,4 +12,7 @@ service:
   - xvfb
 
 script:
-    - service xvfb status
+    - service xvfb status   # we would expext the service is started - but it is not
+    - service xvfb start    # so start it manually
+    - service xvfb status   # and check again
+
