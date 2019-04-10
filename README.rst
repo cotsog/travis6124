@@ -6,20 +6,14 @@ travis ticket 6124
 
 travis claims :
 
-.. code-block::
 
-    # should work under xenial
-    service:
-      - xvfb
-
-
+.. see : http://docutils.sourceforge.net/docs/ref/rst/directives.html
 .. include:: .travis.yml
+    :code: yaml
 
 
-
-.. literalinclude:: .travis.yml
-:language: python
-
+.. raw:: html
+    :url: https://travis-ci.org/bitranox/travis6124/builds/518513606
 
 
 
