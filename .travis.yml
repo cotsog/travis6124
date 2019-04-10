@@ -11,8 +11,7 @@ addons:
 service:
   - xvfb
 
-allow_failures:
-  script:
-      - service xvfb status   # we would expect the service is started - but it is not
-      - service xvfb start    # so start it manually
-      - service xvfb status   # and check again
+script:
+  - service xvfb status   # we would expect the service is started - but it is not
+  - service xvfb start    # so start it manually
+  - service xvfb status   # and check again
