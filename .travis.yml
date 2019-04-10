@@ -3,15 +3,13 @@ group: travis_latest
 dist: xenial
 sudo: true
 
-# install xvfb virtual framebuffer - start commands with xvfb-run <command> - this we need for WINE
 addons:
     apt:
         packages:
             - xvfb
-            - winbind
 
 service:
   - xvfb
 
 script:
-    - printenv
+    - service xvfb status
