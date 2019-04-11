@@ -3,12 +3,7 @@ group: travis_latest
 dist: xenial
 sudo: true
 
-addons:
-    apt:
-        packages:
-            - xvfb
-
-service:
+services:
   - xvfb
 
 script:
